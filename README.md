@@ -12,7 +12,7 @@ A Mindustry Mod written in Java.
 **Building for Desktop (PC):**
 
 1. Install JDK 17 (or 18).
-2. Run: `./gradlew build`
+2. On Linux, run: `./gradlew build`
 3. Your mod jar will be in the `build/libs` directory. 
 
 **Note:** Only use this version for testing on desktop. It will not work with Android.
