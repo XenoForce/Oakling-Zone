@@ -1,0 +1,14 @@
+name: oakling-zone
+displayName: "Oakling Zone"
+description: "Oakling Zone"
+author: goldie
+
+# The fully qualified main class of the mod.
+main: "mod.JavaMod"
+
+version: 1.0.1
+minGameVersion: 140
+java: true
+
+dependencies: []
+hideBrowser: true
