@@ -1,11 +1,6 @@
-# Oakling-Zone
-Oakling Zone
+# Oakling Zone
 
-<br>
-
-**A Java Mod:**
-
-A Mindustry Mod written in Java.
+A Mindustry mod written in Java.
 
 <br>
 
