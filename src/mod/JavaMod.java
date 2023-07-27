@@ -64,6 +64,7 @@ public class JavaMod extends Mod {
 		
 		arrContent.add( new Afflict_X() );
 		arrContent.add( new Breach_X() );
+		arrContent.add( new Sublimate_X() );
 		
 		// Unit Factory:
 		

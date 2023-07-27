@@ -13,6 +13,7 @@ import mindustry.mod.*;
 import mindustry.entities.*;
 import mindustry.entities.bullet.*;
 import mindustry.entities.effect.*;
+import mindustry.entities.part.*;
 import mindustry.entities.pattern.*;
 import mindustry.graphics.*;
 import mindustry.type.*;
