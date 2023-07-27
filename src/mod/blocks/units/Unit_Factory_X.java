@@ -43,6 +43,8 @@ public class Unit_Factory_X extends UnitFactory {
 		
 		super("unit-factory-x");
 		
+		localizedName = "Unit Factory (Oakling)";
+		
 		var zeroItems = new ItemStack[0];
 		
 		ItemStack[] zero = {};
