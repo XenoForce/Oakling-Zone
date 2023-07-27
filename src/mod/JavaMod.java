@@ -78,6 +78,7 @@ public class JavaMod extends Mod {
 		
 		// Erekir Units:
 		
+		arrContent.add( X_Unit_Types.collaris_x );
 		arrContent.add( X_Unit_Types.conquer_x );
 		arrContent.add( X_Unit_Types.disrupt_x );
 		
