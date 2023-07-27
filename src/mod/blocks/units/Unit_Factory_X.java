@@ -55,6 +55,7 @@ public class Unit_Factory_X extends UnitFactory {
 			new UnitPlan( X_Unit_Types.reign_x    , 180f, zero),
 			new UnitPlan( X_Unit_Types.toxopid_x  , 180f, zero),
 			
+			new UnitPlan( X_Unit_Types.conquer_x  , 180f, zero),
 			new UnitPlan( X_Unit_Types.disrupt_x  , 180f, zero)
 		);
 		
