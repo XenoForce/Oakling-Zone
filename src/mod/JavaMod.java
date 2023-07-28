@@ -27,7 +27,7 @@ public class JavaMod extends Mod {
 	//---------------------------------------------------------------//
 	public JavaMod() {
 		
-		Log.info("Loaded JavaMod constructor.");
+		Log.info("Loaded Oakling-Zone (JavaMod class) constructor.");
 		
 		//listen for game load event
 		Events.on( ClientLoadEvent.class, e -> {
@@ -47,7 +47,7 @@ public class JavaMod extends Mod {
 	@Override
 	public void loadContent() {
 		
-		Log.info("Loading content.");
+		Log.info("Loading content - (Oakling-Zone mod).");
 		
 		List<UnlockableContent> arrContent = new ArrayList<>();
 		
