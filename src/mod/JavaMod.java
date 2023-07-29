@@ -69,6 +69,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new Diffuse_X   () );
 		arrContent.add( new Disperse_X  () );
 		arrContent.add( new Lustre_X    () );
+		arrContent.add( new Malign_X    () );
 		arrContent.add( new Scathe_X    () );
 		arrContent.add( new Smite_X     () );
 		arrContent.add( new Sublimate_X () );
