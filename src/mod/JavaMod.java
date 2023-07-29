@@ -66,6 +66,7 @@ public class JavaMod extends Mod {
 		
 		arrContent.add( new Afflict_X() );
 		arrContent.add( new Breach_X() );
+		arrContent.add( new Diffuse_X() );
 		arrContent.add( new Scathe_X() );
 		arrContent.add( new Sublimate_X() );
 		
