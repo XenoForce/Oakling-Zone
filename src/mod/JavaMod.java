@@ -54,6 +54,7 @@ public class JavaMod extends Mod {
 		// Serpulo Turrets:
 		
 		arrContent.add( new Cyclone_X() );
+		arrContent.add( new Duo_X() );
 		arrContent.add( new Foreshadow_X() );
 		arrContent.add( new Fuse_X() );
 		arrContent.add( new Lancer_X() );
