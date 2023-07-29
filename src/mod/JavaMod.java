@@ -81,6 +81,8 @@ public class JavaMod extends Mod {
 		
 		// Serpulo Units:
 		
+		arrContent.add( X_Unit_Types.mace_x    );
+		
 		arrContent.add( X_Unit_Types.corvus_x  );
 		arrContent.add( X_Unit_Types.eclipse_x );
 		arrContent.add( X_Unit_Types.reign_x   );
