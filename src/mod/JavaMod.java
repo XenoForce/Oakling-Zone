@@ -53,22 +53,23 @@ public class JavaMod extends Mod {
 		
 		// Serpulo Turrets:
 		
-		arrContent.add( new Cyclone_X() );
-		arrContent.add( new Duo_X() );
-		arrContent.add( new Foreshadow_X() );
-		arrContent.add( new Fuse_X() );
-		arrContent.add( new Lancer_X() );
-		arrContent.add( new Scatter_X() );
-		arrContent.add( new Segment_X() );
-		arrContent.add( new Swarmer_X() );
+		arrContent.add( new Cyclone_X    () );
+		arrContent.add( new Duo_X        () );
+		arrContent.add( new Foreshadow_X () );
+		arrContent.add( new Fuse_X       () );
+		arrContent.add( new Lancer_X     () );
+		arrContent.add( new Scatter_X    () );
+		arrContent.add( new Segment_X    () );
+		arrContent.add( new Swarmer_X    () );
 		
 		// Erekir Turrets:
 		
-		arrContent.add( new Afflict_X() );
-		arrContent.add( new Breach_X() );
-		arrContent.add( new Diffuse_X() );
-		arrContent.add( new Scathe_X() );
-		arrContent.add( new Sublimate_X() );
+		arrContent.add( new Afflict_X   () );
+		arrContent.add( new Breach_X    () );
+		arrContent.add( new Diffuse_X   () );
+		arrContent.add( new Scathe_X    () );
+		arrContent.add( new Sublimate_X () );
+		arrContent.add( new Titan_X     () );
 		
 		// Unit Factory:
 		
@@ -76,16 +77,16 @@ public class JavaMod extends Mod {
 		
 		// Serpulo Units:
 		
-		arrContent.add( X_Unit_Types.corvus_x );
+		arrContent.add( X_Unit_Types.corvus_x  );
 		arrContent.add( X_Unit_Types.eclipse_x );
-		arrContent.add( X_Unit_Types.reign_x );
+		arrContent.add( X_Unit_Types.reign_x   );
 		arrContent.add( X_Unit_Types.toxopid_x );
 		
 		// Erekir Units:
 		
 		arrContent.add( X_Unit_Types.collaris_x );
-		arrContent.add( X_Unit_Types.conquer_x );
-		arrContent.add( X_Unit_Types.disrupt_x );
+		arrContent.add( X_Unit_Types.conquer_x  );
+		arrContent.add( X_Unit_Types.disrupt_x  );
 		
 		// - - - - - - - - - - - - - - - - - - - - - -
 		
