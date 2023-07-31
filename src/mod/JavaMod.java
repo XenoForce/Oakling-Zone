@@ -60,6 +60,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new Fuse_X       () );
 		arrContent.add( new Hail_X       () );
 		arrContent.add( new Lancer_X     () );
+		arrContent.add( new Meltdown_X   () );
 		arrContent.add( new Ripple_X     () );
 		arrContent.add( new Scatter_X    () );
 		arrContent.add( new Scorch_X     () );
