@@ -62,6 +62,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new Lancer_X     () );
 		arrContent.add( new Meltdown_X   () );
 		arrContent.add( new Ripple_X     () );
+		arrContent.add( new Salvo_X      () );
 		arrContent.add( new Scatter_X    () );
 		arrContent.add( new Scorch_X     () );
 		arrContent.add( new Segment_X    () );
