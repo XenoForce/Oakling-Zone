@@ -62,6 +62,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new Lancer_X     () );
 		arrContent.add( new Ripple_X     () );
 		arrContent.add( new Scatter_X    () );
+		arrContent.add( new Scorch_X     () );
 		arrContent.add( new Segment_X    () );
 		arrContent.add( new Swarmer_X    () );
 		
@@ -100,8 +101,9 @@ public class JavaMod extends Mod {
 		// - - - - - - - - - - - - - - - - - - - - - -
 		
 		for (UnlockableContent uc : arrContent) {
+			uc.alwaysUnlocked = true;
 			uc.load();
-			uc.unlock();
+			// uc.unlock();
 		} //for
 		
 	} //loadContent()
