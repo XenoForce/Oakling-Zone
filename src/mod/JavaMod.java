@@ -65,6 +65,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new Scatter_X    () );
 		arrContent.add( new Scorch_X     () );
 		arrContent.add( new Segment_X    () );
+		arrContent.add( new Spectre_X    () );
 		arrContent.add( new Swarmer_X    () );
 		
 		// Erekir Turrets:
