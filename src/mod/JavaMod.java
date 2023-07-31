@@ -58,6 +58,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new Duo_X        () );
 		arrContent.add( new Foreshadow_X () );
 		arrContent.add( new Fuse_X       () );
+		arrContent.add( new Hail_X       () );
 		arrContent.add( new Lancer_X     () );
 		arrContent.add( new Ripple_X     () );
 		arrContent.add( new Scatter_X    () );
