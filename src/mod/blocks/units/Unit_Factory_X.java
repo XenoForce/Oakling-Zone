@@ -53,6 +53,7 @@ public class Unit_Factory_X extends UnitFactory {
 		
 		plans = Seq.with(
 			new UnitPlan( X_Unit_Types.mace_x     , 180f, zero),
+			new UnitPlan( X_Unit_Types.fortress_x , 180f, zero),
 			
 			new UnitPlan( X_Unit_Types.corvus_x   , 180f, zero),
 			new UnitPlan( X_Unit_Types.eclipse_x  , 180f, zero),

@@ -7,6 +7,7 @@ public class X_Unit_Types {
 	//  Static Attributes:                                           //
 	//---------------------------------------------------------------//
 	public static Mace_X      mace_x      = new Mace_X();
+	public static Fortress_X  fortress_x  = new Fortress_X();
 	
 	public static Corvus_X    corvus_x    = new Corvus_X();
 	public static Eclipse_X   eclipse_x   = new Eclipse_X();
