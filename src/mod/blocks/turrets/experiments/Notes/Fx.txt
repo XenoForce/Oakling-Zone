@@ -1,0 +1,48 @@
+----(Fx.)---- //(Built-in Effects in "content/Fx.java".)
+
+trailFade
+
+artilleryTrail
+artilleryTrailSmoke
+
+missileTrail
+missileTrailShort
+
+railTrail
+
+---------------------------------------------
+
+titanExplosion
+
+scatheExplosion
+
+flakExplosion      ***
+
+plasticExplosion
+plasticExplosionFlak
+
+blastExplosion     ***
+
+sapExplosion
+
+explosion
+flakExplosionBig   ***
+massiveExplosion   ***
+
+dynamicExplosion
+reactorExplosion
+impactReactorExplosion
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+Bullet: classes:
+----------------
+
+BulletType                       //extends Content
+
+                                 //Introduces:
+                                    float lifetime = 40f
+                                    float speed  = 1f
+                                    float damage = 1f
+                                    
+                                    float splashDamage = 0f
+                                    float splashDamageRadius = -1f
+                                    
+                                    boolean keepVelocity = true
+                                    
+                                    fragBullet = null
+                                    fragBullets = 9
+
+                                    hitEffect     = Fx.hitBulletSmall
+                                    despawnEffect = Fx.hitBulletSmall
+                                    shootEffect   = Fx.shootSmall
+                                    chargeEffect  = Fx.none
+                                    smokeEffect   = Fx.shootSmallSmoke
+
+                                    StatusEffect status = StatusEffects.none;
+                                    float statusDuration = 60 * 8f;     //(8 seconds.)
+                                    
+                                    float trailChance = -0.0001f
+                                    trailColor = Pal.missileYellowBack
+                                    trailEffect = Fx.missileTrail
+                                    
+                                    int trailLength  = -1
+                                    float trailWidth = 2f
+                                    
+                                    
+---------------------------------------------------------------------------------------
+BasicBulletType                  //extends BulletType
+
+                                 //Introduces:
+                                    width  = 5f
+                                    height = 7f
+                                    sprite = "bullet"
+                                    backSprite = null
+                                    
+                                    float spin = 0                        (*-*-*)
+                                    
+                                    frontColor, backColor
+                                    mixColorFrom, mixColorTo
+                                    float shrinkX = 0f, shrinkY = 0.5f
+
+
+---------------------------------------------------------------------------------------
+ArtilleryBulletType
+
+BombBulletType
+
+---------------------------------------------------------------------------------------
+ContinuousBulletType             //extends BulletType
+
+---------------------------------------------------------------------------------------
+ContinuousFlameBulletType        //extends ContinuousBulletType
+
+                                 //Introduces:
+                                    float flareWidth  = 3f
+                                    float flareLength = 40f
+                                    flareColor = Color.valueOf("e189f5")
+
+---------------------------------------------------------------------------------------
+ContinuousLaserBulletType        //extends ContinuousBulletType
+
+EmpBulletType
+
+ExplosionBulletType
+
+FireBulletType
+
+FlakBulletType
+
+LaserBoltBulletType
+LaserBulletType
+
+LightningBulletType
+
+LiquidBulletType
+
+MassDriverBolt
+
+MissileBulletType
+
+PointBulletType
+PointLaserBulletType
+
+RailBulletType
+
+SapBulletType
+
+ShrapnelBulletType
+
+SpaceLiquidBulletType
+
+
+-------------------------------------------------------------
+Bullet: sprites:     (In dir: "assets-raw/sprites/effects")
+----------------
+
+bullet.png
+bullet-back.png
+
+shell.png                             // Similar shape to "bullet".
+shell-back.png
+
+circle-bullet.png
+circle-bullet-back.png
+
+large-bomb.png                        // Can it spin ?
+large-bomb-back.png
+
+mine-bullet.png                       // Can it spin ?
+mine-bullet-back.png
+
+large-orb.png
+large-orb-back.png
+
+missile.png                           // Can it spin ?
+missile-back.png
+
+missile-large.png                     // Can it spin ?
+missile-large-back.png
+
+
+- - - - - - - - - - - - - - - - - - - - - -
+
+casing.png     // We can shoot this. Why not?
+
+laser.png      // Yes, we can shoot this. Why not?
+
+- - - - - - - - - - - - - - - - - - - - - -
+
+circle-mid.png
+circle-shadow.png      // fuzzy orb.
+
+particle.png           // fuzzy orb.
+
+drill-laser-boost-center.png
+drill-laser-boost-end.png
+drill-laser-boost.png
+
+drill-laser-center.png
+drill-laser-end.png
+drill-laser.png
+
+laser-end.png
+laser-top-end.png
+laser-top.png
+
+laser-white-end.png
+laser-white.png         // Hmm... maybe?
+
+<End>
