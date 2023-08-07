@@ -89,6 +89,7 @@ public class JavaMod extends Mod {
 		arrContent.add( new X_B () );
 		arrContent.add( new X_C () );
 		arrContent.add( new X_D () );
+		arrContent.add( new X_E () );
 		
 		// Unit Factory:
 		
