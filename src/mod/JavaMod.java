@@ -16,6 +16,7 @@ import mindustry.type.ammo.*;
 import mindustry.type.unit.*;
 
 import mod.blocks.turrets.*;
+import mod.blocks.turrets.experiments.*;
 import mod.blocks.units.*;
 import mod.units.*;
 
@@ -81,6 +82,11 @@ public class JavaMod extends Mod {
 		arrContent.add( new Smite_X     () );
 		arrContent.add( new Sublimate_X () );
 		arrContent.add( new Titan_X     () );
+		
+		// Experimental Turrets:
+		
+		arrContent.add( new X_A () );
+		arrContent.add( new X_B () );
 		
 		// Unit Factory:
 		
