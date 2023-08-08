@@ -72,18 +72,18 @@ public class X_C extends PowerTurret {
 			buildingDamageMultiplier = 0.75f;
 			
 			sprite = "mine-bullet";
-			spin   = 15;
+			spin   = 8;
 			
-			width  = 9f;
-			height = 9f;
+			width  = 16f;
+			height = 16f;
 			
 			shrinkX = 0;
 			shrinkY = 0;
 			
-			frontColor = Color.red;
-			backColor  = Color.yellow;
+			frontColor = Color.gray;
+			backColor  = Color.black;
 			
-			trailEffect   = Fx.missileTrailShort;
+			trailEffect   = Fx.none;
 			despawnEffect = Fx.titanExplosion;
 		}};
 		

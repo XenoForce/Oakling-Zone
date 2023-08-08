@@ -48,7 +48,7 @@ public class X_E extends PowerTurret {
 		// shoot.firstShotDelay = 40f;
 		
 		recoil = 1f;
-		reload = 70f;
+		reload = 50f;
 		shake  = 1f;
 		
 		shootEffect = Fx.none;

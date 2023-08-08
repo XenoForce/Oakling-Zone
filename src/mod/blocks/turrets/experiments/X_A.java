@@ -71,14 +71,21 @@ public class X_A extends PowerTurret {
 			
 			buildingDamageMultiplier = 0.75f;
 			
-			trailLength = 8;
+			width  = 8f;
+			height = 14f;
+			
+			shrinkX = 0;
+			shrinkY = 0;
+			
+			frontColor = Color.gray;
+			backColor  = Color.black;
+			
+			trailLength = 10;
 			trailWidth  = 1.8f;
 			
 			hitEffect = Fx.none;
 			
 			sprite = "missile-large";
-			
-			spin = 20;
 		}};
 		
 	} //Constructor
