@@ -10,15 +10,15 @@ To be used as an example and a template for Java mods, going forward.
 
 This mod just adds some new instances of the following things to the game:
 
-  (*) Serpulo Turrets
+* Serpulo Turrets
 
-  (*) Erekir Turrets
+* Erekir Turrets
 
-  (*) Experimental Turrets
+* Experimental Turrets
 
-  (*) Serpulo Units
+* Serpulo Units
 
-  (*) Erekir Units
+* Erekir Units
 
 <br>
 
