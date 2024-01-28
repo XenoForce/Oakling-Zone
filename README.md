@@ -8,7 +8,7 @@ To be used as an example and a template for Java mods, going forward.
 
 <br>
 
-This mod just adds some new instances of the following things to the game:
+**This mod just adds some new instances of the following things to the game:**
 
 * Serpulo Turrets
 
